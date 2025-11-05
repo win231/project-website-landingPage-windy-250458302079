@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crochet.dy</title>
+    <link rel="icon" href="img/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  </head>
+  <style>
+    body {
+      font-family: "Roboto Slab", serif;
+    }
+  </style>
+  <body>
+    <!-- nav bar -->
+    <nav
+      class="sticky top-0 z-50 bg-[#86A788]/90 backdrop-blur border-b border-white"
+      aria-label="primary"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- menu laptop -->
+        <div class="flex items-center justify-between h-16">
+          <a
+            href="#"
+            class="flex items-center text-white text-xl uppercase tracking-wider font-bold"
+            >Crochet.dy</a
+          >
+
+          <div id="main-menu" class="hidden md:flex md:items-center md:gap-2">
+            <div
+              class="flex flex-col md:flex-row md:items-center md:gap-2 text-right md:text-left"
+            >
+              <a
+                href="#home"
+                class="px-3 py-2 text-white rounded-lg uppercase font-semibold transition duration-300 hover:bg-white hover:text-[#D7C0AE]"
+                >Home</a
+              >
+              <a
+                href="#product"
+                class="px-3 py-2 text-white rounded-lg uppercase font-semibold transition duration-300 hover:bg-white hover:text-[#D7C0AE]"
+                >product</a
+              >
+              <a
+                href="#bestDeals"
+                class="px-3 py-2 text-white rounded-lg uppercase font-semibold transition duration-300 hover:bg-white hover:text-[#D7C0AE]"
+                >best deals</a
+              >
+              <a
+                href="#aboutUs"
+                class="px-3 py-2 text-white rounded-lg uppercase font-semibold transition duration-300 hover:bg-white hover:text-[#D7C0AE]"
+                >about us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <section
+      id="home"
+      class="h-screen bg-[url('https://i.pinimg.com/1200x/c8/80/d7/c880d758563fd8bc4bcaff6ed033ebe5.jpg')] bg-cover bg-center"
+    >
+      <h1 class="text-[#86A788] text-4xl font-bold text-center pt-32">
+        Welcome to Crochet.dy
+      </h1>
+      <p class="text-gray-400 text-2xl font-semibold text-center pt-16">
+        Each piece is made with love <br />
+        and attention to detail to create something special.
+      </p>
+    </section>
+
+    <!-- product -->
+    <section id="product" class="h-screen bg-[#FFFDEC] py-14">
+      <h1 class="text-4xl text-center font-bold mt-20 mb-10 text-gray-500">
+        Our Product
+      </h1>
+      <div class="grid md:grid-cols-4 gap-6 mt-10">
+        <!-- card 1 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/product.1.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Flower Bag</h6>
+              <p class="text-sm text-gray-500">
+                Crochet handmade bag with flower style
+              </p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <span class="font-bold text-green-600">$55</span>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/product.2.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Fruit Keychain</h6>
+              <p class="text-sm text-gray-500">Cute fruit-shaped keychain.</p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <span class="font-bold text-green-600">$6</span>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/product.3.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Cute Bag</h6>
+              <p class="text-sm text-gray-500">Trendy handmade crochet bag.</p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <span class="font-bold text-green-600">$58</span>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/product.4.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Mini Tote</h6>
+              <p class="text-sm text-gray-500">Perfect daily tote bag.</p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <span class="font-bold text-green-600">$48</span>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- best deals -->
+    <section id="bestDeals" class="h-screen bg-[#FFE2E2] py-14">
+      <h1 class="text-4xl text-center font-bold mt-20 mb-10 text-gray-500">
+        Best Deals
+      </h1>
+      <div class="grid md:grid-cols-4 gap-6 mt-10">
+        <!-- card 1 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/bestDeals.1.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Cute Pouch</h6>
+              <p class="text-sm text-gray-500">
+                Crochet handmade pouch with animal style.
+              </p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-red-500 line-through">$19</span>
+                <span class="font-bold text-green-600">$17</span>
+              </div>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/bestDeals.2.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Strawbery Keychain</h6>
+              <p class="text-sm text-gray-500">
+                Cute strawbery-shaped keychain.
+              </p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-red-500 line-through">$12</span>
+                <span class="font-bold text-green-600">$10</span>
+              </div>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/bestDeals.3.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Duck Bucket Hat</h6>
+              <p class="text-sm text-gray-500">
+                Trendy handmade crochet duck hat.
+              </p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-red-500 line-through">$25</span>
+                <span class="font-bold text-green-600">$23</span>
+              </div>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div
+          class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden h-80 flext flex-col bg-white"
+        >
+          <!-- gambar -->
+          <img src="img/bestDeals.4.jpeg" class="w-full h-1/2 object-cover" />
+          <!-- text -->
+          <div class="p-4 h-1/2 flex flex-col justify-between">
+            <!-- judul & deskripsi -->
+            <div class="text-center">
+              <h6 class="font-bold text-lg">Mini Mushroom</h6>
+              <p class="text-sm text-gray-500">Handmade cute mushroom plush.</p>
+            </div>
+
+            <!-- harga & button -->
+            <div class="flex items-center justify-between mt-4">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-red-500 line-through">$15</span>
+                <span class="font-bold text-green-600">$13</span>
+              </div>
+              <button
+                class="bg-[#86A788] text-white px-3 py-1 rounded-lg hover:bg-green-400 transition"
+              >
+                Order 🛒
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section
+      id="aboutUs"
+      class="h-screen bg-[#FFFDEC] py-10 flex flex-col items-center justify-center"
+    >
+      <!-- judul -->
+      <h1 class="text-center text-4xl font-bold mb-14 text-gray-500">
+        About Us
+      </h1>
+      <!-- text -->
+      <div
+        class="shadow-xl rounded-2xl border-2 border-[#86A788] overflow-hidden w-3/4 md:w-1/2 p-6 bg-white"
+      >
+        <h4 class="text-center text-2xl font-semibold text-[#86A788] pb-4">
+          Crochet.dy
+        </h4>
+        <p class="text-center text-gray-700 leading-relaxed">
+          Founded in 2025, Crochet.dy started from a small passion for turning
+          yarn into unique handmade pieces. From cute keychains to stylish bags,
+          every item is crafted with care to bring charm and creativity into
+          your daily life. <br /><br />
+          Thank you for supporting our little crochet journey 💕
+        </p>
+        <br>
+        <div class="text-center">
+          <i class="fa-brands fa-instagram text-2xl hover:text-pink-500"></i>
+          <i class="fa-brands fa-tiktok text-2xl hover:text-gray-500"></i>
+          <i class="fa-brands fa-twitter text-2xl hover:text-blue-500"></i>
+          <i class="fa-solid fa-cart-shopping text-2xl hover:text-yellow-500"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer/copy right -->
+      <footer class="bg-[#86A788] py-14">
+        <p class="text-center text-white">&copy; 2025 Crochet.dy production</p>
+      </footer>
+  </body>
+</html>
